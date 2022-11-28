@@ -27,8 +27,6 @@ def normal_distributionCDF(x, n):
     return y
 
 
-print(get_gauss_taylor_coeff(30))
-
 y = normal_distributionCDF(x, 30)
 plt.plot(x, y)
 
